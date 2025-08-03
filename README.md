@@ -3,6 +3,7 @@
 Install TensorFlow GPU on WSL2 Ubuntu 24.04 (Windows 11) | CUDA, cuDNN, TensorRT &amp; PyTorch
 
 ##################
+
 Cuda and cuDNN:
 https://www.tensorflow.org/install/source#gpu_support_2
 
@@ -13,6 +14,7 @@ https://github.com/tensorflow/tensorflow/issues/61468
 
 
 ##################
+
 sudo apt update
 
 sudo apt upgrade
@@ -22,10 +24,12 @@ sudo apt install build-essential
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 bash ./Miniconda3-latest-Linux-x86_64.sh
+
 ##################
 
 
 ##################
+
 wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda_12.1.1_530.30.02_linux.run
 
 sudo sh cuda_12.1.1_530.30.02_linux.run
@@ -52,6 +56,7 @@ echo $LD_LIBRARY_PATH
 sudo ldconfig -p | grep cuda
 
 nvcc --version
+
 ##################
 
 ##################
