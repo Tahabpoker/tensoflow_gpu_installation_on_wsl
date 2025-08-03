@@ -1,0 +1,1 @@
+# tensoflow_gpu_installation_on_wsl
